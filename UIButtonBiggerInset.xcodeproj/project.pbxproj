@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFB825A2200B8E39005B6ACF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB825A1200B8E39005B6ACF /* AppDelegate.m */; };
+		FFB825A5200B8E39005B6ACF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB825A4200B8E39005B6ACF /* ViewController.m */; };
+		FFB825A8200B8E39005B6ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB825A6200B8E39005B6ACF /* Main.storyboard */; };
+		FFB825AA200B8E39005B6ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB825A9200B8E39005B6ACF /* Assets.xcassets */; };
+		FFB825AD200B8E39005B6ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB825AB200B8E39005B6ACF /* LaunchScreen.storyboard */; };
+		FFB825B0200B8E39005B6ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB825AF200B8E39005B6ACF /* main.m */; };
+		FFB825BA200B8E3A005B6ACF /* UIButtonBiggerInsetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB825B9200B8E3A005B6ACF /* UIButtonBiggerInsetTests.m */; };
+		FFB825C5200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB825C4200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFB825B6200B8E3A005B6ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB82595200B8E39005B6ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB8259C200B8E39005B6ACF;
+			remoteInfo = UIButtonBiggerInset;
+		};
+		FFB825C1200B8E3A005B6ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB82595200B8E39005B6ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB8259C200B8E39005B6ACF;
+			remoteInfo = UIButtonBiggerInset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFB8259D200B8E39005B6ACF /* UIButtonBiggerInset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtonBiggerInset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB825A0200B8E39005B6ACF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFB825A1200B8E39005B6ACF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFB825A3200B8E39005B6ACF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFB825A4200B8E39005B6ACF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFB825A7200B8E39005B6ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFB825A9200B8E39005B6ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFB825AC200B8E39005B6ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFB825AE200B8E39005B6ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB825AF200B8E39005B6ACF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFB825B5200B8E3A005B6ACF /* UIButtonBiggerInsetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonBiggerInsetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB825B9200B8E3A005B6ACF /* UIButtonBiggerInsetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonBiggerInsetTests.m; sourceTree = "<group>"; };
+		FFB825BB200B8E3A005B6ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB825C0200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonBiggerInsetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB825C4200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonBiggerInsetUITests.m; sourceTree = "<group>"; };
+		FFB825C6200B8E3A005B6ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB8259A200B8E39005B6ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB825B2200B8E3A005B6ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB825BD200B8E3A005B6ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB82594200B8E39005B6ACF = {
+			isa = PBXGroup;
+			children = (
+				FFB8259F200B8E39005B6ACF /* UIButtonBiggerInset */,
+				FFB825B8200B8E3A005B6ACF /* UIButtonBiggerInsetTests */,
+				FFB825C3200B8E3A005B6ACF /* UIButtonBiggerInsetUITests */,
+				FFB8259E200B8E39005B6ACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB8259E200B8E39005B6ACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8259D200B8E39005B6ACF /* UIButtonBiggerInset.app */,
+				FFB825B5200B8E3A005B6ACF /* UIButtonBiggerInsetTests.xctest */,
+				FFB825C0200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB8259F200B8E39005B6ACF /* UIButtonBiggerInset */ = {
+			isa = PBXGroup;
+			children = (
+				FFB825A0200B8E39005B6ACF /* AppDelegate.h */,
+				FFB825A1200B8E39005B6ACF /* AppDelegate.m */,
+				FFB825A3200B8E39005B6ACF /* ViewController.h */,
+				FFB825A4200B8E39005B6ACF /* ViewController.m */,
+				FFB825A6200B8E39005B6ACF /* Main.storyboard */,
+				FFB825A9200B8E39005B6ACF /* Assets.xcassets */,
+				FFB825AB200B8E39005B6ACF /* LaunchScreen.storyboard */,
+				FFB825AE200B8E39005B6ACF /* Info.plist */,
+				FFB825AF200B8E39005B6ACF /* main.m */,
+			);
+			path = UIButtonBiggerInset;
+			sourceTree = "<group>";
+		};
+		FFB825B8200B8E3A005B6ACF /* UIButtonBiggerInsetTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB825B9200B8E3A005B6ACF /* UIButtonBiggerInsetTests.m */,
+				FFB825BB200B8E3A005B6ACF /* Info.plist */,
+			);
+			path = UIButtonBiggerInsetTests;
+			sourceTree = "<group>";
+		};
+		FFB825C3200B8E3A005B6ACF /* UIButtonBiggerInsetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB825C4200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.m */,
+				FFB825C6200B8E3A005B6ACF /* Info.plist */,
+			);
+			path = UIButtonBiggerInsetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB8259C200B8E39005B6ACF /* UIButtonBiggerInset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB825C9200B8E3A005B6ACF /* Build configuration list for PBXNativeTarget "UIButtonBiggerInset" */;
+			buildPhases = (
+				FFB82599200B8E39005B6ACF /* Sources */,
+				FFB8259A200B8E39005B6ACF /* Frameworks */,
+				FFB8259B200B8E39005B6ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIButtonBiggerInset;
+			productName = UIButtonBiggerInset;
+			productReference = FFB8259D200B8E39005B6ACF /* UIButtonBiggerInset.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFB825B4200B8E3A005B6ACF /* UIButtonBiggerInsetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB825CC200B8E3A005B6ACF /* Build configuration list for PBXNativeTarget "UIButtonBiggerInsetTests" */;
+			buildPhases = (
+				FFB825B1200B8E3A005B6ACF /* Sources */,
+				FFB825B2200B8E3A005B6ACF /* Frameworks */,
+				FFB825B3200B8E3A005B6ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB825B7200B8E3A005B6ACF /* PBXTargetDependency */,
+			);
+			name = UIButtonBiggerInsetTests;
+			productName = UIButtonBiggerInsetTests;
+			productReference = FFB825B5200B8E3A005B6ACF /* UIButtonBiggerInsetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFB825BF200B8E3A005B6ACF /* UIButtonBiggerInsetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB825CF200B8E3A005B6ACF /* Build configuration list for PBXNativeTarget "UIButtonBiggerInsetUITests" */;
+			buildPhases = (
+				FFB825BC200B8E3A005B6ACF /* Sources */,
+				FFB825BD200B8E3A005B6ACF /* Frameworks */,
+				FFB825BE200B8E3A005B6ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB825C2200B8E3A005B6ACF /* PBXTargetDependency */,
+			);
+			name = UIButtonBiggerInsetUITests;
+			productName = UIButtonBiggerInsetUITests;
+			productReference = FFB825C0200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB82595200B8E39005B6ACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = dangguo.github.com;
+				TargetAttributes = {
+					FFB8259C200B8E39005B6ACF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FFB825B4200B8E3A005B6ACF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFB8259C200B8E39005B6ACF;
+					};
+					FFB825BF200B8E3A005B6ACF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFB8259C200B8E39005B6ACF;
+					};
+				};
+			};
+			buildConfigurationList = FFB82598200B8E39005B6ACF /* Build configuration list for PBXProject "UIButtonBiggerInset" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFB82594200B8E39005B6ACF;
+			productRefGroup = FFB8259E200B8E39005B6ACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB8259C200B8E39005B6ACF /* UIButtonBiggerInset */,
+				FFB825B4200B8E3A005B6ACF /* UIButtonBiggerInsetTests */,
+				FFB825BF200B8E3A005B6ACF /* UIButtonBiggerInsetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB8259B200B8E39005B6ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB825AD200B8E39005B6ACF /* LaunchScreen.storyboard in Resources */,
+				FFB825AA200B8E39005B6ACF /* Assets.xcassets in Resources */,
+				FFB825A8200B8E39005B6ACF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB825B3200B8E3A005B6ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB825BE200B8E3A005B6ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB82599200B8E39005B6ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB825A5200B8E39005B6ACF /* ViewController.m in Sources */,
+				FFB825B0200B8E39005B6ACF /* main.m in Sources */,
+				FFB825A2200B8E39005B6ACF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB825B1200B8E3A005B6ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB825BA200B8E3A005B6ACF /* UIButtonBiggerInsetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB825BC200B8E3A005B6ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB825C5200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFB825B7200B8E3A005B6ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB8259C200B8E39005B6ACF /* UIButtonBiggerInset */;
+			targetProxy = FFB825B6200B8E3A005B6ACF /* PBXContainerItemProxy */;
+		};
+		FFB825C2200B8E3A005B6ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB8259C200B8E39005B6ACF /* UIButtonBiggerInset */;
+			targetProxy = FFB825C1200B8E3A005B6ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFB825A6200B8E39005B6ACF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB825A7200B8E39005B6ACF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFB825AB200B8E39005B6ACF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB825AC200B8E39005B6ACF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB825C7200B8E3A005B6ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFB825C8200B8E3A005B6ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB825CA200B8E3A005B6ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIButtonBiggerInset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dangguo.github.com.UIButtonBiggerInset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFB825CB200B8E3A005B6ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIButtonBiggerInset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dangguo.github.com.UIButtonBiggerInset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFB825CD200B8E3A005B6ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIButtonBiggerInsetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dangguo.github.com.UIButtonBiggerInsetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButtonBiggerInset.app/UIButtonBiggerInset";
+			};
+			name = Debug;
+		};
+		FFB825CE200B8E3A005B6ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIButtonBiggerInsetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dangguo.github.com.UIButtonBiggerInsetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButtonBiggerInset.app/UIButtonBiggerInset";
+			};
+			name = Release;
+		};
+		FFB825D0200B8E3A005B6ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIButtonBiggerInsetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dangguo.github.com.UIButtonBiggerInsetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIButtonBiggerInset;
+			};
+			name = Debug;
+		};
+		FFB825D1200B8E3A005B6ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIButtonBiggerInsetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dangguo.github.com.UIButtonBiggerInsetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIButtonBiggerInset;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB82598200B8E39005B6ACF /* Build configuration list for PBXProject "UIButtonBiggerInset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB825C7200B8E3A005B6ACF /* Debug */,
+				FFB825C8200B8E3A005B6ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB825C9200B8E3A005B6ACF /* Build configuration list for PBXNativeTarget "UIButtonBiggerInset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB825CA200B8E3A005B6ACF /* Debug */,
+				FFB825CB200B8E3A005B6ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB825CC200B8E3A005B6ACF /* Build configuration list for PBXNativeTarget "UIButtonBiggerInsetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB825CD200B8E3A005B6ACF /* Debug */,
+				FFB825CE200B8E3A005B6ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB825CF200B8E3A005B6ACF /* Build configuration list for PBXNativeTarget "UIButtonBiggerInsetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB825D0200B8E3A005B6ACF /* Debug */,
+				FFB825D1200B8E3A005B6ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFB82595200B8E39005B6ACF /* Project object */;
+}
