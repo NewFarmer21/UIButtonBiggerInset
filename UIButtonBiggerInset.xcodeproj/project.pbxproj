@@ -15,6 +15,7 @@
 		FFB825B0200B8E39005B6ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB825AF200B8E39005B6ACF /* main.m */; };
 		FFB825BA200B8E3A005B6ACF /* UIButtonBiggerInsetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB825B9200B8E3A005B6ACF /* UIButtonBiggerInsetTests.m */; };
 		FFB825C5200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB825C4200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.m */; };
+		FFB825D4200B8E62005B6ACF /* UIButton+BiggerInset.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB825D3200B8E62005B6ACF /* UIButton+BiggerInset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FFB825C0200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonBiggerInsetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB825C4200B8E3A005B6ACF /* UIButtonBiggerInsetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonBiggerInsetUITests.m; sourceTree = "<group>"; };
 		FFB825C6200B8E3A005B6ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB825D2200B8E62005B6ACF /* UIButton+BiggerInset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BiggerInset.h"; sourceTree = "<group>"; };
+		FFB825D3200B8E62005B6ACF /* UIButton+BiggerInset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BiggerInset.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				FFB825A1200B8E39005B6ACF /* AppDelegate.m */,
 				FFB825A3200B8E39005B6ACF /* ViewController.h */,
 				FFB825A4200B8E39005B6ACF /* ViewController.m */,
+				FFB825D2200B8E62005B6ACF /* UIButton+BiggerInset.h */,
+				FFB825D3200B8E62005B6ACF /* UIButton+BiggerInset.m */,
 				FFB825A6200B8E39005B6ACF /* Main.storyboard */,
 				FFB825A9200B8E39005B6ACF /* Assets.xcassets */,
 				FFB825AB200B8E39005B6ACF /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFB825A5200B8E39005B6ACF /* ViewController.m in Sources */,
+				FFB825D4200B8E62005B6ACF /* UIButton+BiggerInset.m in Sources */,
 				FFB825B0200B8E39005B6ACF /* main.m in Sources */,
 				FFB825A2200B8E39005B6ACF /* AppDelegate.m in Sources */,
 			);
